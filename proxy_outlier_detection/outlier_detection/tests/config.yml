@@ -1,3 +1,0 @@
----
-model:
- model_path: "./outlier_detection/model/benign_model.sav"
