@@ -13,18 +13,6 @@ class TestAnomalyDetectionExecutor(TestCase):
         clf = OneClassSVM(nu=0.1, kernel="rbf", gamma=0.1)
         self.model = Pipeline([('clf', clf)])
 
-    # def mock_response():
-    #     log_dict = dict()
-    #     log_dict["userName"] = "user_1"
-    #     log_dict["cacheResult"] = "TCP_HIT"
-    #     log_dict["userAgentString"] = "Mozilla/5.0"
-    #     response = dict()
-    #     response["status"] = 200
-    #     response["description"] = "description"
-    #     response["message"] = "success"
-    #     response["log_details"] = log_dict
-    #     return Response(data=response, status=200)
-    
     def log_dict():
         log_dict = dict()
         log_dict["userName"] = "user_1"
