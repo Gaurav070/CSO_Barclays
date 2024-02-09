@@ -1,4 +1,4 @@
-# <b>CSO_Barclays_Anomaly_Detection_API</b>
+# <b>CS_Proxies_Anomaly_Detection_API</b>
 A Utility to detect anomaly in proxy logs of user activities on user agents
 
 TO Run this utility, please do the following steps.
