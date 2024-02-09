@@ -10,10 +10,10 @@ pip install -r requirement.txt
 
 2. Pipeline has Two components front end Steamlit UI and Django based API
 
-    a. Run API after locate to /CSO_Barclays/proxy_outlier_detection using command
+    a. Run API after locate to /Proxies_Anomaly_Detection/proxy_outlier_detection using command
         <b>python manage.py runserver</b>
         
-    b. Run Streamlit UI using python script located in /CSO_Barclays
+    b. Run Streamlit UI using python script located in /Proxies_Anomaly_Detection
         <b>streamlit run streamlit_benign_ui.py</b>
 
 3. Upload the sample file located in sample folder in UI and visualise the table
@@ -22,7 +22,7 @@ BONUS!
 
 4. <b>Run Unit Test</b>
 
-To run Unit Test locate to /CSO_Barclays/proxy_outlier_detection and run comd
+To run Unit Test locate to /Proxies_Anomaly_Detection/proxy_outlier_detection and run cmd
 
 pytest -v ./outlier_detection/tests/
 
